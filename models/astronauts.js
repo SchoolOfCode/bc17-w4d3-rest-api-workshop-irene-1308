@@ -2,6 +2,7 @@ import astronauts from "../libs/data.js";
 
 export async function getAstronauts() {
   return astronauts;
+  console.log('Fetching astronauts data...');
 }
 
 export async function createAstronaut(astronaut) {

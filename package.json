@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "dev": "nodemon bin/www.js"
+    "dev": "nodemon bin/www.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
